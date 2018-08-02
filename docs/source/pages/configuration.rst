@@ -279,7 +279,7 @@ Alias for ``cookie_access_token_name``
 ``expiration_delta``
 --------------------
 
-| **Purpose**: The length of time that the access token should be valid. `Since there is NO way to revoke an access token, it is recommended to keep this time period short, and to enable refresh tokens (which can be revoked) to retrieve new access tokens.`
+| **Purpose**: The length of time that the access token should be valid, in seconds. `Since there is NO way to revoke an access token, it is recommended to keep this time period short, and to enable refresh tokens (which can be revoked) to retrieve new access tokens.`
 | **Default**: ``60 * 5 * 6``, aka 30 minutes
 |
 
